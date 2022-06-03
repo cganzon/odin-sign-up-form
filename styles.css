@@ -10,3 +10,35 @@
   font-family: "norse-bold";
   src: url("./Norse-Bold.otf") format("opentype");
 }
+
+body {
+  min-height: 100vh;
+}
+
+.hero {
+  background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+.company {
+  font-family: "norse-bold";
+  font-size: 5rem;
+  color: #fff;
+}
