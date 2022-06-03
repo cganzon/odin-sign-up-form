@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -11,8 +13,17 @@
   src: url("./Norse-Bold.otf") format("opentype");
 }
 
+:root {
+  --accent: #596D48;
+}
+
 body {
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  display: block;
 }
 
 .hero {
@@ -41,4 +52,77 @@ body {
   font-family: "norse-bold";
   font-size: 5rem;
   color: #fff;
+}
+
+.content {
+  padding: 3rem 0;
+  background-color: #eee;
+}
+
+.info,
+.wrapper {
+  padding: 0 1rem;
+}
+
+.form-inner {
+  padding: 1rem;
+}
+
+.info-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.info-text:nth-child(2) {
+  margin-bottom: 3rem;
+}
+
+.form-inner {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5); 
+  box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.2);
+}
+
+.form-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 0.8rem;
+}
+
+.wrapper {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--accent);
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: transform 0.1s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.account {
+  font-size: 0.95rem;
+}
+
+.login {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.login:hover {
+  text-decoration: underline;
 }
