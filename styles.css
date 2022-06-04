@@ -152,7 +152,7 @@ label {
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   body {
     display: flex;
   }
