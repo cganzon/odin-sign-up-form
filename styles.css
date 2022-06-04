@@ -151,3 +151,60 @@ label {
 .login:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+  }
+
+  .hero {
+    min-width: 300px;
+    width: 60%;
+  }
+
+  .hero-inner {
+    margin-bottom: 20rem;
+    padding: 1rem;
+  }
+
+  .content {
+    padding-top: 13rem;
+  }
+
+  .info,
+  .wrapper {
+    padding: 0 3rem;
+  }
+
+  .info {
+    width: 90%;
+  }
+
+  .info-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .form-inner {
+    padding: 3rem;
+  }
+
+  .form-heading {
+    font-size: 1.3rem;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 4rem;
+    width: 90%;
+  }
+
+  .form-group {
+    flex: 1;
+  }
+
+  .btn {
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+  }
+}
